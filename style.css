@@ -1,0 +1,43 @@
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.comment-wrapper {
+  border: 1px solid black;
+  margin: 15px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.comment-wrapper p {
+  margin: 5px;
+}
+
+.comment-name {
+  border: 1px solid black;
+  display: inline-block;
+  border-radius: 8px;
+  padding: 4px 10px;
+}
+
+.comment-text {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+button {
+  background-color: #707070;
+  font-size: 20px;
+  margin: 15px;
+  border-radius: 6px;
+  border: none;
+  padding: 17px 40px;
+  text-transform: uppercase;
+  transition: all 500ms ease;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
