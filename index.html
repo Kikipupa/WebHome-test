@@ -12,7 +12,20 @@
     <main>
       <div class="comment-list"></div>
       <div class="button-wrapper">
-        <button class="load-more">load more</button>
+        <button class="btn-load-more">load more</button>
+      </div>
+      <div class="pagination"></div>
+      <div class="overlay">
+        <form autocomplete="off" class="comment-form" name="comment-form">
+          <p><input type="text" class="name" placeholder="Name" /></p>
+          <p>
+            <textarea
+              class="enter-comment-text"
+              placeholder="Comment"
+            ></textarea>
+          </p>
+        </form>
+        <button class="btn-add-comment">post</button>
       </div>
     </main>
   </body>
