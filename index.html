@@ -16,16 +16,32 @@
       </div>
       <div class="pagination"></div>
       <div class="overlay">
-        <form autocomplete="off" class="comment-form" name="comment-form">
-          <p><input type="text" class="name" placeholder="Name" /></p>
+        <form
+          action="https://jordan.ashton.fashion/api/goods/30/comments"
+          autocomplete="off"
+          class="comment-form"
+          name="comment-form"
+          method="POST"
+        >
+          <p>
+            <input
+              required
+              type="text"
+              class="name"
+              placeholder="Name"
+              name="name"
+            />
+          </p>
           <p>
             <textarea
+              required
               class="enter-comment-text"
               placeholder="Comment"
+              name="text"
             ></textarea>
           </p>
+          <button type="submit" class="btn-add-comment">post</button>
         </form>
-        <button class="btn-add-comment">post</button>
       </div>
     </main>
   </body>

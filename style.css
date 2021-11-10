@@ -37,7 +37,7 @@ body {
 }
 
 button {
-  background-color: #707070;
+  background-color: #adadad;
   font-size: 20px;
   margin: 15px;
   border-radius: 6px;
@@ -78,4 +78,10 @@ button:hover {
   padding: 8px;
   margin: 0 6px;
   border-radius: 12px;
+  margin-bottom: 6px;
+}
+
+.active {
+  background-color: rgb(68, 68, 68);
+  color: white;
 }
